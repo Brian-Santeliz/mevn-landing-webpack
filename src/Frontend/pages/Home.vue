@@ -3,7 +3,7 @@
   <header id="slider-area">  
       <nav class="navbar navbar-expand-md fixed-top scrolling-navbar bg-white">
         <div class="container">          
-          <a class="navbar-brand" href="index.html"><span class="lni-bulb"></span>ESSENCE</a>
+          <a class="navbar-brand" href="index.html"><span class="lni-bulb"></span>Smart Tech</a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
             <i class="lni-menu"></i>
           </button>
@@ -53,7 +53,7 @@
             <div class="carousel-item active">
               <img src="../public/image/bg-1.jpg" alt="">
               <div class="carousel-caption text-left">
-                <h1 class="wow fadeInRight" >Ejemplo</h1>  
+                <h1 class="wow fadeInRight" >Creando Diseños Únicos</h1>  
                 <h2 class="wow fadeInRight" data-wow-delay="0.4s">Bootstrap 4 Template</h2>
                 <h4 class="wow fadeInRight" data-wow-delay="0.6s">Comes with All Essential Sections & Elements</h4>
                 <a href="#" class="btn btn-lg btn-common btn-effect wow fadeInRight" data-wow-delay="0.9s">Download</a>
