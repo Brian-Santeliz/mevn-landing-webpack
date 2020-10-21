@@ -1498,35 +1498,6 @@ footer .menu li a:hover {
   background-color: #dd4b39;
 }
 
-#copyright {
-  background-color: #ffffff;
-  padding: 20px 0 10px;
-  border-top: 1px solid #eaeaea;
-  color: #546e7a;
-}
-
-#copyright p {
-  margin-bottom: 0;
-  line-height: 40px;
-}
-
-#copyright p a {
-  color: #546e7a;
-}
-
-#copyright p a:hover {
-  color: #17a2b8;
-}
-
-#copyright .nav-inline .nav-link {
-  color: #546e7a;
-  padding: 10px 0;
-  margin-left: 10px;
-}
-
-#copyright .nav-inline .nav-link:hover {
-  color: #17a2b8;
-}
 
 /* ==========================================================================
  Counter Section Style

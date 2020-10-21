@@ -33,15 +33,6 @@
   .item-boxes h4 {
     font-size: 16px;
   }
-  #carousel-area .carousel-item .carousel-caption {
-    top: 35%;
-  }
-  #carousel-area .carousel-item .carousel-caption h3 {
-    font-size: 22px;
-  }
-  #carousel-area .carousel-item .carousel-caption h2 {
-    font-size: 50px;
-  }
   .call-action .cta-trial h3 {
     font-size: 18px;
   }
@@ -74,20 +65,8 @@
   .counters .facts-item {
     margin-bottom: 30px;
   }
-  .subscribe-form {
-    margin-bottom: 30px;
-  }
-  .subscribe-form .sub-title h3 {
-    font-size: 22px;
-  }
   .pricing-table .pricing-details ul li {
     font-size: 13px;
-  }
-  #blog .blog-item-wrapper {
-    margin-bottom: 30px;
-  }
-  #blog .blog-item-text h3 {
-    font-size: 14px;
   }
   .footer-social li {
     margin-right: 2px;
@@ -127,24 +106,7 @@
   .mainmenu-area {
     padding: 0;
   }
-  #carousel-area .carousel-item .carousel-caption {
-    top: 40%;
-  }
-  #carousel-area .carousel-item .carousel-caption h3 {
-    font-size: 16px;
-  }
-  #carousel-area .carousel-item .carousel-caption h2 {
-    font-size: 22px;
-  }
-  #carousel-area .carousel-item .carousel-caption h4 {
-    font-size: 14px;
-  }
-  #carousel-area .carousel-item .carousel-caption .btn {
-    margin: 8px 5px;
-    padding: 7px 16px;
-    text-transform: capitalize;
-    font-size: 14px;
-  }
+
   .section-header .section-title {
     font-size: 22px;
   }
@@ -181,10 +143,6 @@
   }
   .bg-faded {
     background: #fff !important;
-  }
-  #video-area .contents h1 {
-    font-size: 30px;
-    line-height: 48px;
   }
   #features .content-right span {
     float: none;
@@ -268,31 +226,7 @@
     font-size: 18px;
     line-height: 30px;
   }
-  #carousel-area .carousel-item .carousel-caption {
-    top: 40%;
-  }
-  #carousel-area .carousel-item .carousel-caption h3 {
-    font-size: 13px;
-  }
-  #carousel-area .carousel-item .carousel-caption h2 {
-    font-size: 18px;
-  }
-  #carousel-area .carousel-item .carousel-caption h4 {
-    font-size: 11px;
-  }
-  #carousel-area .carousel-item .carousel-caption .btn {
-    margin: 8px 5px;
-    padding: 7px 16px;
-    text-transform: capitalize;
-    font-size: 14px;
-  }
-  #carousel-area .carousel-control-next i, #carousel-area .carousel-control-prev i {
-    background: transparent !important;
-  }
-  #carousel-area .carousel-control-next i:hover, #carousel-area .carousel-control-prev i:hover {
-    background: transparent !important;
-    border: none !important;
-  }
+ 
   .call-action .cta-trial h3 {
     font-size: 14px;
     line-height: 22px;
@@ -303,20 +237,7 @@
   #features .box-item {
     text-align: center;
   }
-  #video-area .contents {
-    padding: 80px 0 60px;
-  }
-  #video-area .contents h1 {
-    font-size: 18px;
-    line-height: 32px;
-  }
-  .video-promo .video-promo-content h2 {
-    font-size: 18px;
-  }
-  .controls .btn {
-    font-size: 12px;
-    text-transform: capitalize;
-  }
+
   #cta h5 {
     font-size: 18px;
     line-height: 30px;
@@ -363,39 +284,9 @@
     line-height: 36px;
     margin-left: 0px;
   }
-  #blog-single .blog-post .post-content {
-    padding: 15px;
-  }
-  #blog-single .blog-post .post-content h3 {
-    font-size: 15px;
-  }
-  .blog-comment .comment-author {
-    margin-bottom: 40px;
-  }
-  .blog-comment .comment-list .children {
-    padding-left: 0;
-  }
-  .post-meta ul li {
-    line-height: 28px;
-  }
-  .widget {
-    margin-top: 30px;
-  }
+  
   #about-area .about-thumb-2 {
     top: 64%;
   }
-  .contact-deatils {
-    margin-top: 30px;
-  }
-  #copyright p {
-    line-height: 24px;
-    font-size: 11px;
-  }
-  #copyright .nav-inline .nav-link {
-    padding: 8px 0;
-    font-size: 11px;
-  }
-  .float-right {
-    float: left !important;
-  }
+ 
 }
