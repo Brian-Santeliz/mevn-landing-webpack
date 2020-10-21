@@ -14,9 +14,24 @@ const router = new Router({
       name: "Services",
     },
     {
+      path: "/plan",
+      component: () => import("../pages/Plan.vue"),
+      name: "Plan",
+    },
+    {
+      path: "/portafolio",
+      component: () => import("../pages/Portafolio.vue"),
+      name: "Portafolio",
+    },
+    {
       path: "/about",
       component: () => import("../pages/About.vue"),
       name: "About",
+    },
+    {
+      path: "/contact",
+      component: () => import("../pages/Contact.vue"),
+      name: "Contact",
     },
     {
       path: "/testimonials",
