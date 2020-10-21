@@ -34,11 +34,6 @@ const router = new Router({
       name: "Contact",
     },
     {
-      path: "/testimonials",
-      component: () => import("../pages/Testimonials.vue"),
-      name: "Testimonials",
-    },
-    {
       path: "/404",
       component: () => import("../pages/NotFound.vue"),
       name: "404",

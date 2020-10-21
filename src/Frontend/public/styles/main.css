@@ -1,8 +1,4 @@
 /* ==========================================================================
-   1. IMPORT GOOGLE FONTS
-   ========================================================================== */
-/* @import url("https://fonts.googleapis.com/css?family=Montserrat:500,700|Open+Sans"); */
-/* ==========================================================================
    2. GENERAL
    ========================================================================== */
 body {
@@ -1617,16 +1613,16 @@ button:focus {
 /* ==========================================================================
   Slider
    ========================================================================== */
-#carousel-area {
+#hero-home {
   overflow: hidden;
   background: #2c3e50;
 }
 
-#carousel-area .carousel-item {
+#hero-home .hero-item {
   background-size: 100%;
 }
 
-#carousel-area .carousel-item .carousel-caption {
+#hero-home .hero-item .carousel-caption {
   top: 32%;
   right: 10%;
   left: 12%;
@@ -1635,88 +1631,26 @@ button:focus {
   padding-bottom: 0;
 }
 
-#carousel-area .carousel-item .carousel-caption h3 {
+#hero-home .hero-item .carousel-caption h3 {
   color: #fff;
   font-weight: 500;
   font-size: 26px;
   line-height: 38px;
 }
 
-#carousel-area .carousel-item .carousel-caption h2 {
+#hero-home .hero-item .carousel-caption h2 {
   font-size: 80px;
   font-weight: 700;
   color: #fff;
 }
 
-#carousel-area .carousel-item .carousel-caption h4 {
+#hero-home .hero-item .carousel-caption h4 {
   color: #ffffff;
   font-size: 18px;
   font-weight: 500;
   margin-bottom: 30px;
 }
 
-#carousel-area .carousel-control {
-  display: none;
-  -webkit-transition: all 0.3s ease-in-out;
-  -moz-transition: all 0.3s ease-in-out;
-  -o-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
-}
-
-#carousel-area:hover .carousel-control {
-  display: block;
-  -webkit-transition: all 0.3s ease-in-out;
-  -moz-transition: all 0.3s ease-in-out;
-  -o-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
-  -webkit-animation-duration: 1s;
-  animation-duration: 1s;
-  -webkit-animation-fill-mode: both;
-  animation-fill-mode: both;
-  -webkit-animation-name: fadeIn;
-  animation-name: fadeIn;
-}
-
-#carousel-area .carousel-control-next,
-#carousel-area .carousel-control-prev {
-  opacity: 1;
-}
-
-#carousel-area .carousel-control-next i,
-#carousel-area .carousel-control-prev i {
-  width: 48px;
-  line-height: 48px;
-  height: 48px;
-  color: #fff;
-  font-size: 24px;
-  display: inline-block;
-  background: #17a2b8;
-  border-radius: 30px;
-  -webkit-transition: all 0.2s linear;
-  -moz-transition: all 0.2s linear;
-  -o-transition: all 0.2s linear;
-  transition: all 0.2s linear;
-}
-
-#carousel-area .carousel-control-next i:hover,
-#carousel-area .carousel-control-prev i:hover {
-  opacity: 0.9;
-}
-
-#carousel-area .carousel-indicators li:hover,
-#carousel-area .carousel-indicators li.active {
-  opacity: 1;
-}
-
-#carousel-area .carousel-indicators {
-  bottom: 35px;
-}
-
-#carousel-area .carousel-indicators li {
-  width: 30px;
-  height: 7px;
-  border-radius: 4px;
-}
 
 #slider-area {
   margin-top: -1px;
@@ -2519,32 +2453,33 @@ Testimonials Styles
   cursor: pointer;
 }
 
-.call-action-area {
+.newsletter {
   padding-top: 50px;
   padding-bottom: 100px;
+  background: #f9f9f9
 }
-.call-action-area .call-action-content .action-title {
+.newsletter .newsletter-content .action-title {
   font-size: 32px;
   font-weight: 600;
   line-height: 40px;
   color: #121212;
 }
 @media (max-width: 767px) {
-  .call-action-area .call-action-content .action-title {
+  .newsletter .newsletter-content .action-title {
     font-size: 24px;
     line-height: 35px;
   }
 }
-.call-action-area .call-action-content .text {
+.newsletter .newsletter-content .text {
   font-size: 16px;
   color: #121212;
   line-height: 27px;
   margin-top: 16px;
 }
-.call-action-area .call-action-form {
+.newsletter .newsletter-form {
   position: relative;
 }
-.call-action-area .call-action-form input {
+.newsletter .newsletter-form input {
   width: 100%;
   height: 60px;
   border: 1px solid #cbced1;
@@ -2553,49 +2488,49 @@ Testimonials Styles
   border-radius: 50px;
 }
 @media (max-width: 767px) {
-  .call-action-area .call-action-form input {
+  .newsletter .newsletter-form input {
     height: 50px;
   }
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {
-  .call-action-area .call-action-form input {
+  .newsletter .newsletter-form input {
     height: 60px;
   }
 }
-.call-action-area .call-action-form input::placeholder {
+.newsletter .newsletter-form input::placeholder {
   opacity: 1;
   color: #a4a4a4;
 }
-.call-action-area .call-action-form input::-moz-placeholder {
+.newsletter .newsletter-form input::-moz-placeholder {
   opacity: 1;
   color: #a4a4a4;
 }
-.call-action-area .call-action-form input::-moz-placeholder {
+.newsletter .newsletter-form input::-moz-placeholder {
   opacity: 1;
   color: #a4a4a4;
 }
-.call-action-area .call-action-form input::-webkit-input-placeholder {
+.newsletter .newsletter-form input::-webkit-input-placeholder {
   opacity: 1;
   color: #a4a4a4;
 }
 
-.call-action-area .call-action-form .action-btn {
+.newsletter .newsletter-form .action-btn {
   position: absolute;
   top: 5px;
   right: 5px;
 }
 @media (max-width: 767px) {
-  .call-action-area .call-action-form .action-btn .main-btn {
+  .newsletter .newsletter-form .action-btn .main-btn {
     width: 100%;
   }
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {
-  .call-action-area .call-action-form .action-btn .main-btn {
+  .newsletter .newsletter-form .action-btn .main-btn {
     width: auto;
   }
 }
 @media (max-width: 767px) {
-  .call-action-area .call-action-form .action-btn {
+  .newsletter .newsletter-form .action-btn {
     position: relative;
     top: 0;
     right: 0;
@@ -2603,7 +2538,7 @@ Testimonials Styles
   }
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {
-  .call-action-area .call-action-form .action-btn {
+  .newsletter .newsletter-form .action-btn {
     position: absolute;
     top: 8px;
     right: 8px;
@@ -2611,46 +2546,4 @@ Testimonials Styles
   }
 }
 
-.call-action-2 {
-  background-color: #f4f6f7;
-}
 
-
-.call-action-3 .call-action-content .action-title {
-  color: #fff;
-}
-.call-action-3 .call-action-content .text {
-  color: #fff;
-}
-.call-action-3 .call-action-form input {
-  color: #fff;
-  border-color: #fff;
-}
-.call-action-3 .call-action-form input::placeholder {
-  opacity: 1;
-  color: #fff;
-}
-.call-action-3 .call-action-form input::-moz-placeholder {
-  opacity: 1;
-  color: #fff;
-}
-.call-action-3 .call-action-form input::-moz-placeholder {
-  opacity: 1;
-  color: #fff;
-}
-.call-action-3 .call-action-form input::-webkit-input-placeholder {
-  opacity: 1;
-  color: #fff;
-}
-.call-action-3 .call-action-form input:focus {
-  border-color: #fff;
-}
-.call-action-3 .call-action-form .action-btn .main-btn {
-  background-color: #fff;
-  color: #38f9d7;
-  border-color: #fff;
-}
-.call-action-3 .call-action-form .action-btn .main-btn:hover {
-  background-color: rgba(255, 255, 255, 0.3);
-  color: #fff;
-}
