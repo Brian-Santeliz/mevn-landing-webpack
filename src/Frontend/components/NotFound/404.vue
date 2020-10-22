@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="mt-5" style="margin-top: 9em !important">
     <h1 class="text-black font-bold text-capitalize">
       Esta página esta fuera de orbita.
     </h1>
