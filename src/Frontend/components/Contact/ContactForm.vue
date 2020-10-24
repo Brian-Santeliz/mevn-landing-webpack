@@ -12,7 +12,7 @@
         <div class="row">
           <div class="col-lg-9 col-md-9 col-xs-12">
             <div class="contact-block">
-              <form id="contactForm">
+              <form @submit.prevent="contacForm">
                 <div class="row">
                   <div class="col-md-6">
                     <div class="form-group">
@@ -21,8 +21,8 @@
                         class="form-control"
                         placeholder="Escribe tu nombre"
                         required
+                        v-model="Contact.nombre"
                       />
-                      <div></div>
                     </div>
                   </div>
                   <div class="col-md-6">
@@ -32,8 +32,8 @@
                         placeholder="Email"
                         class="form-control"
                         required
+                        v-model="Contact.email"
                       />
-                      <div></div>
                     </div>
                   </div>
                   <div class="col-md-12">
@@ -43,8 +43,8 @@
                         placeholder="Asunto"
                         class="form-control"
                         required
+                        v-model="Contact.asunto"
                       />
-                      <div></div>
                     </div>
                   </div>
                   <div class="col-md-12">
@@ -54,8 +54,8 @@
                         placeholder="Cuentanos tu Smart Idea..."
                         rows="7"
                         required
+                        v-model="Contact.mensaje"
                       ></textarea>
-                      <div></div>
                     </div>
                     <div class="submit-button">
                       <button
@@ -120,3 +120,37 @@
     </div>
   </section>
 </template>
+<script>
+import axios from "axios";
+import Swal from "sweetalert2";
+export default {
+  data() {
+    return {
+      Contact: {
+        nombre: "",
+        email: "",
+        asunto: "",
+        mensaje: "",
+      },
+    };
+  },
+  methods: {
+    contacForm() {
+      axios
+        .post("http://localhost:8080/contact", this.Contact)
+        .then(() => {
+          Swal.fire(
+            "Recibido",
+            "Gracias por comunicarte con Smart Tech!",
+            "success"
+          );
+          (this.Contact.nombre = ""),
+            (this.Contact.email = ""),
+            (this.Contact.asunto = ""),
+            (this.Contact.mensaje = "");
+        })
+        .catch(console.log);
+    },
+  },
+};
+</script>
