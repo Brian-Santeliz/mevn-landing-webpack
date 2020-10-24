@@ -1709,7 +1709,62 @@ footer .menu li a:hover {
   }
 }
 
+/* ==========================================================================
+  Formulario Login 
+ ========================================================================== */
 
+.containerOwnApp {
+  box-shadow: 0 0 27px 0 rgba(84, 84, 84, 0.62);
+  padding-top: 15px;
+}
+
+.login-page {
+ padding: 18% 0 0;
+ margin: 0 auto 100px;
+ max-width: 360px;
+ position: relative;
+}
+
+.login-form {
+  box-shadow: 0 0 27px 0 rgba(84, 84, 84, 0.62);
+}
+
+.login-form-header {
+  padding-top: 16px;
+}
+
+.login-from-row {
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.login-form-font-header {
+  font-size:30px; 
+  font-weight: bold;
+}
+
+.login-form-font-header span {
+  color: #007C9B;
+}
+.title-form{
+  font-size: 3rem;
+  font-weight: bold;
+}
+.tech-form{
+  color: #17a2b8;
+}
+
+.input-form{
+  padding-left:1em;
+}
+.form-servicios{
+  background: #d8dce0;
+    padding: 3rem;
+    border-radius: 3rem;
+}
+.background-table{
+  background:#dee2e6
+}
 @media (min-width: 768px) and (max-width: 1024px) {
   .section-header .section-title {
     font-size: 22px;

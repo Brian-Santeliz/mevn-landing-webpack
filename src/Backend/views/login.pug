@@ -1,0 +1,21 @@
+extends ./layout/index
+
+block contenido
+   .container
+        .row.text-center.login-page
+            .col-md-12.login-form
+                form(action='/admin/auth' method='post')
+                    .row
+                        .col-md-12.login-form-header.title-form
+                            p.login-form-font-header
+                            | Smart 
+                            span.tech-form Tech
+                    .row
+                        .col-md-12.login-from-row
+                            input(name='usuario' type='text' placeholder='Usuario' required class="input-form")
+                    .row
+                        .col-md-12.login-from-row
+                            input(name='password' type='password' placeholder='Contraseña' required class="input-form")
+                    .row
+                        .col-md-12.login-from-row
+                            button.btn.btn-info Entrar

@@ -43,7 +43,7 @@ export default {
   methods: {
     submitNewsletter() {
       axios
-        .post("http://localhost:8080/newsletter/", this.Newsletter)
+        .post("/newsletter", this.Newsletter)
         .then((res) => {
           Swal.fire(
             "Enviado",

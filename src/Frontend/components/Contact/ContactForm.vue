@@ -137,7 +137,7 @@ export default {
   methods: {
     contacForm() {
       axios
-        .post("http://localhost:8080/contact", this.Contact)
+        .post("/contact", this.Contact)
         .then(() => {
           Swal.fire(
             "Recibido",

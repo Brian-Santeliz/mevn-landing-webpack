@@ -1,0 +1,11 @@
+nav.navbar.navbar-expand-lg.navbar-dark.bg-primary.py-3
+        a.navbar-brand.p-2(href='/panel') Bienvenido admin
+        button.navbar-toggler(type='button' data-toggle='collapse' data-target='#navbarNavAltMarkup' aria-controls='navbarNavAltMarkup' aria-expanded='false' aria-label='Toggle navigation')
+            span.navbar-toggler-icon
+        #navbarNavAltMarkup.collapse.navbar-collapse
+            .navbar-nav.ml-auto
+            a.nav-item.nav-link.text-white.font-bold(href='/panel')
+                | Panel 
+                span.sr-only (current)
+            a.nav-item.nav-link.text-white(href='/suscriptions') Suscripciones
+            a.nav-item.nav-link.text-white.btn.btn-outline-danger.my-2.my-sm-0(href='/admin') Logout

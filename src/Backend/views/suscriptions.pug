@@ -1,0 +1,19 @@
+extends ./layout/index
+block contenido
+    include includes/navigator
+    .container  
+        .row
+            .col-md-8.mx-auto.mt-5
+                h3.text-center Usuarios Suscritos
+                p.text-center.mb-3 En esta sección se listan los usarios suscritos al newsletter
+                    if(newsletters)
+                            table.table.table-striped
+                                thead.background-table.text-center
+                                    tr
+                                    th(scope='col') #
+                                    th(scope='col') Email
+                                for newsletter of newsletters
+                                    tbody.text-center
+                                        tr
+                                        th(scope='row') #{newsletter.id}
+                                        td #{newsletter.email}
