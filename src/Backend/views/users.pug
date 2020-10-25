@@ -1,0 +1,19 @@
+include ./layout/index
+block contenido 
+    include includes/navigator
+    .container.d-flex.justify-content-center
+        .row
+            .col-md-12
+                .container.text-center.mt-4
+                    if(mensaje)
+                        p.alert.alert-success.text-uppercase.my-3 
+                    if(error)
+                        p.alert.alert-danger.text-uppercase.my-3 
+                    h3 Administrador de usuarios
+                    p.mb-2 Crear nuevos usarios administradores para Smart Tech.
+                    form(class="mt-4 mb-4 " action="/services/backend" method="POST")
+                        .form-group 
+                            input(class="form-control" name="usuario"  placeholder="Escribe el titulo del servicio")
+                            input(class="form-control" name="contraseña" placeholder="Escribe el titulo del servicio")
+                            input(class="form-control"  name="clase" placeholder="Escribe clase del icono. Ej: lni-pencil")
+                            input(type="submit", value="Agregar servicio" class="btn btn-info btn-block")

@@ -1,5 +1,5 @@
 nav.navbar.navbar-expand-lg.navbar-dark.bg-primary.py-3
-        a.navbar-brand.p-2(href='/panel') Bienvenido Admin
+        a.navbar-brand.p-2(href='/panel') Bienvenido #{usuario}
         button.navbar-toggler(type='button' data-toggle='collapse' data-target='#navbarNavAltMarkup' aria-controls='navbarNavAltMarkup' aria-expanded='false' aria-label='Toggle navigation')
             span.navbar-toggler-icon
         #navbarNavAltMarkup.collapse.navbar-collapse
@@ -8,5 +8,6 @@ nav.navbar.navbar-expand-lg.navbar-dark.bg-primary.py-3
                 | Panel 
                 span.sr-only (current)
             a.nav-item.nav-link.text-white(href='/suscriptions') Suscripciones
-            a.nav-item.nav-link.text-white(href='/message') Mensajes
+            a.nav-item.nav-link.text-white(href='/messages') Mensajes
+            a.nav-item.nav-link.text-white(href='/users') Usuarios
             a.nav-item.nav-link.text-white.btn.btn-outline-danger.my-2.my-sm-0(href='/logout') Logout

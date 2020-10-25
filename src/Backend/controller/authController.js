@@ -25,7 +25,7 @@ exports.authPostController = async (req, res) => {
       });
     }
     req.session.admin = true;
-    req.session.user = "admin";
+    req.session.user = userExist.usuario;
     res.redirect("/panel");
   } catch (error) {
     console.log(error);
