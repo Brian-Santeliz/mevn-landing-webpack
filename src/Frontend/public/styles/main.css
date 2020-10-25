@@ -721,35 +721,12 @@ button:focus {
   -o-transition: all 0.3s ease-in-out;
 }
 
-.services-item .color-1 i {
-  background: #fae3e3;
-  color: #d82928 !important;
-}
-
-.services-item .color-2 i {
-  background: #e6f8ed;
-  color: #57d283 !important;
-}
-
-.services-item .color-3 i {
-  background: #e3eafa;
-  color: #457bf4 !important;
-}
-
-.services-item .color-4 i {
-  background: #f3ead6;
-  color: #f1a90a !important;
-}
-
 .services-item .color-5 i {
   background: #e7e6ff;
-  color: #7271ff !important;
+  color: #17a2b8 !important;
 }
 
-.services-item .color-6 i {
-  background: #dedede;
-  color: #35393d !important;
-}
+
 
 .services-item .services-content {
   padding-left: 65px;

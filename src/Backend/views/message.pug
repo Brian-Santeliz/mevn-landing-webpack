@@ -1,0 +1,26 @@
+extends ./layout/index
+block contenido
+    include includes/navigator
+    .container  
+        .row
+            .col-md-8.mx-auto.mt-5
+                h3.text-center Bande De Entrada
+                p.text-center.mb-3 Esta sección muestra los mensajes que se han enviado a Smart Tech
+                    if(messages)
+                            table.table.table-striped
+                                thead.background-table.text-center
+                                    tr
+                                    th(scope='col') #
+                                    th(scope='col') Nombre
+                                    th(scope='col') Email
+                                    th(scope='col') Asúnto
+                                    th(scope='col') Mensaje
+                                for message of messages
+                                    tbody.text-center
+                                        tr
+                                        th(scope='row') #{message.id}
+                                        td.p-3 #{message.nombre}
+                                        td.p-3 #{message.email}
+                                        td.p-3 #{message.asunto}
+                                        td #{message.mensaje}
+                                        tr

@@ -5,14 +5,18 @@ block contenido
         .row
             .col-md-12
                 .container.text-center.mt-4
+                    if(mensaje)
+                        p.alert.alert-success.text-uppercase.my-3 #{mensaje}
+                    if(error)
+                        p.alert.alert-danger.text-uppercase.my-3 #{error}
                     h3 Agrega Nuevos Servicios
                     p.mb-2 Esto se vera reflejado en el Frontend de Smart Tech
-                    form(class="mt-4 mb-4 form-servicios")
+                    form(class="mt-4 mb-4 form-servicios" action="/services/backend" method="POST")
                         .form-group 
                             label(for="titulo" class="float-left d-3") Agrega un titulo:
-                            input(class="form-control" id="titulo" placeholder="Escribe el titulo del servicio")
+                            input(class="form-control" name="titulo" id="titulo" placeholder="Escribe el titulo del servicio")
                             label(for="icono" class="float-left d-3") Agrega un icono:
-                            input(class="form-control" id="icono" placeholder="Escribe clase del icono. Ej: lni-pencil")
+                            input(class="form-control" id="icono" name="clase" placeholder="Escribe clase del icono. Ej: lni-pencil")
                             label(for="descripcion" class="float-left d-3") Agrega una descripcion:
-                            textarea(name="", id="descripcion" rows="3", class="form-control", placeholder="Describe el Servicio...")
-                            button.btn.btn-info.btn-block Agregar servicio
+                            textarea(name="descripcion", id="descripcion" rows="3", class="form-control", placeholder="Describe el Servicio...")
+                            input(type="submit", value="Agregar servicio" class="btn btn-info btn-block")
