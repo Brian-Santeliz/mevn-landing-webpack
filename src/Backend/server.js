@@ -18,6 +18,7 @@ const authRouter = require("./router/authRouter");
 const userRouter = require("./router/userRouter");
 const { vetificarAuth } = require("./middleware/auth");
 const { userSession } = require("./middleware/userSession");
+const { pathHeader } = require("./middleware/path");
 const app = express();
 
 app.set("view engine", "pug");
@@ -41,6 +42,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(morgan("dev"));
 app.use(express.static(path.join(__dirname, "public")));
 app.use(userSession);
+app.use(pathHeader);
 app.use("/newsletter", newsletterRouter);
 app.use("/contact", contactRouter);
 app.use("/services/backend", servicesRouter);

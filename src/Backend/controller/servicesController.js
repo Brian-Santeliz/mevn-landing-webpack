@@ -16,6 +16,7 @@ exports.servicesPostController = async (req, res) => {
       res.render("panel", {
         error: "Todos los campos son requeridos.",
       });
+      return;
     }
     await Services.create({
       titulo,
@@ -24,6 +25,8 @@ exports.servicesPostController = async (req, res) => {
     });
     res.render("panel", {
       mensaje: "Servcio agregado correctamente!",
+      titulo: "Agrega Nuevos Servicios",
+      parrafo: "Esto se vera reflejado en el Frontend de Smart Tech.",
     });
   } catch (error) {
     res.status(500).json(error);

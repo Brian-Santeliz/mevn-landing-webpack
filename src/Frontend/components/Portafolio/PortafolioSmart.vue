@@ -10,7 +10,7 @@
       </div>
 
       <div class="row">
-        <div class="col-lg-4 col-md-6 col-xs-12 mix development print">
+        <div class="col-lg-4 col-md-6 col-xs-12 mix development print mb-3">
           <div class="portfolio-item">
             <div class="shot-item">
               <img src="../../public/image/f1.jpg" alt="" />
@@ -20,7 +20,7 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-4 col-md-6 col-xs-12 mix design print">
+        <div class="col-lg-4 col-md-6 col-xs-12 mix design print mb-3">
           <div class="portfolio-item">
             <div class="shot-item">
               <img src="../../public/image/f2.jpg" alt="" />
@@ -36,7 +36,7 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-4 col-md-6 col-xs-12 mix development design">
+        <div class="col-lg-4 col-md-6 col-xs-12 mix development design mt-3">
           <div class="portfolio-item">
             <div class="shot-item">
               <img src="../../public/image/f4.jpg" alt="" />
@@ -44,7 +44,7 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-4 col-md-6 col-xs-12 mix development">
+        <div class="col-lg-4 col-md-6 col-xs-12 mix development mt-3">
           <div class="portfolio-item">
             <div class="shot-item">
               <img src="../../public/image/f5.jpg" alt="" />
@@ -52,7 +52,7 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-4 col-md-6 col-xs-12 mix print design">
+        <div class="col-lg-4 col-md-6 col-xs-12 mix print design mt-3">
           <div class="portfolio-item">
             <div class="shot-item">
               <img src="../../public/image/f6.jpg" alt="" />

@@ -732,8 +732,19 @@ button:focus {
   color: #17a2b8 !important;
 }
 
+.header-active{
+  border-bottom: 3px solid white ;
 
-
+}
+@media (max-width:982px){
+.header-active{
+  border-bottom: 3px solid white ;
+  max-width: 7em;
+}  
+.logout{
+  margin-top: 1em !important;
+}
+}
 .services-item .services-content {
   padding-left: 65px;
 }

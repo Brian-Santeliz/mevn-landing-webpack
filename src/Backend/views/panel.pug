@@ -14,9 +14,9 @@ block contenido
                     form(class="mt-4 mb-4 form-servicios" action="/services/backend" method="POST")
                         .form-group 
                             label(for="titulo" class="float-left d-3") Agrega un titulo:
-                            input(class="form-control" name="titulo" id="titulo" placeholder="Escribe el titulo del servicio")
+                            input(class="form-control", name="titulo", id="titulo",  placeholder="Escribe el titulo del servicio", required)
                             label(for="icono" class="float-left d-3") Agrega un icono:
-                            input(class="form-control" id="icono" name="clase" placeholder="Escribe clase del icono. Ej: lni-pencil")
+                            input(class="form-control", id="icono" name="clase" requerid placeholder="Escribe clase del icono. Ej: lni-pencil" required)
                             label(for="descripcion" class="float-left d-3") Agrega una descripcion:
-                            textarea(name="descripcion", id="descripcion" rows="3", class="form-control", placeholder="Describe el Servicio...")
+                            textarea(name="descripcion", id="descripcion" rows="3", class="form-control", required placeholder="Describe el Servicio...")
                             input(type="submit", value="Agregar servicio" class="btn btn-info btn-block")

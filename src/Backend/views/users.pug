@@ -6,14 +6,16 @@ block contenido
             .col-md-12
                 .container.text-center.mt-4
                     if(mensaje)
-                        p.alert.alert-success.text-uppercase.my-3 
+                        p.alert.alert-success.text-uppercase.my-3 #{mensaje}
                     if(error)
-                        p.alert.alert-danger.text-uppercase.my-3 
-                    h3 Administrador de usuarios
-                    p.mb-2 Crear nuevos usarios administradores para Smart Tech.
-                    form(class="mt-4 mb-4 " action="/services/backend" method="POST")
-                        .form-group 
-                            input(class="form-control" name="usuario"  placeholder="Escribe el titulo del servicio")
-                            input(class="form-control" name="contraseña" placeholder="Escribe el titulo del servicio")
-                            input(class="form-control"  name="clase" placeholder="Escribe clase del icono. Ej: lni-pencil")
-                            input(type="submit", value="Agregar servicio" class="btn btn-info btn-block")
+                        p.alert.alert-danger.text-uppercase.mb-3 #{error}
+                    h3 #{titulo}
+                    p.mb-2 #{parrafo}
+                    form(class="mt-4 mb-4 " action="/users" method="POST")
+                        form(action method='post')
+                            .preview.text-center
+                              img.preview-img.mb-2(src='http://simpleicon.com/wp-content/uploads/account.png' alt='Preview Image' width='200' height='200')
+                              input.form-control(type='text' name='usuario' required placeholder='Nombre de usuario')
+                              input.form-control(type='password' name='contraseña' required placeholder='Password')
+                              input.form-control(type='password' name='repetir' required placeholder='Repetir Password...')
+                              input.btn.btn-primary.btn-block.mb-3(type='submit' value='Enviar')

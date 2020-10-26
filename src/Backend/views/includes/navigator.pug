@@ -4,10 +4,10 @@ nav.navbar.navbar-expand-lg.navbar-dark.bg-primary.py-3
             span.navbar-toggler-icon
         #navbarNavAltMarkup.collapse.navbar-collapse
             .navbar-nav.ml-auto
-            a.nav-item.nav-link.text-white.font-bold(href='/panel')
+            a.nav-item.nav-link.text-white.font-bold(href='/panel', class=(path === '/panel' && 'header-active'))
                 | Panel 
                 span.sr-only (current)
-            a.nav-item.nav-link.text-white(href='/suscriptions') Suscripciones
-            a.nav-item.nav-link.text-white(href='/messages') Mensajes
-            a.nav-item.nav-link.text-white(href='/users') Usuarios
-            a.nav-item.nav-link.text-white.btn.btn-outline-danger.my-2.my-sm-0(href='/logout') Logout
+            a.nav-item.nav-link.text-white(href='/suscriptions', class=(path === '/suscriptions' && 'header-active')) Suscripciones
+            a.nav-item.nav-link.text-white(href='/messages', class=(path === '/messages' && 'header-active')) Mensajes
+            a.nav-item.nav-link.text-white(href='/users', class=(path === '/users' && 'header-active')) Usuarios
+            a.nav-item.nav-link.text-white.btn.btn-outline-danger.my-2.my-sm-0.logout.ml-2(href='/logout') Logout
