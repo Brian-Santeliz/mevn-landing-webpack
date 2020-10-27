@@ -3,9 +3,10 @@ const morgan = require("morgan");
 const path = require("path");
 const cors = require("cors");
 const session = require("express-session");
+const cookieParser = require("cookie-parser");
+const MysqlSession = require("express-mysql-session")(session);
 const database = require("./config/database");
 const sessionOptions = require("./config/session");
-const MysqlSession = require("express-mysql-session")(session);
 const newsletterRouter = require("./router/newsletterRouter");
 const contactRouter = require("./router/contactRouter");
 const adminRouter = require("./router/adminRouter");
@@ -41,6 +42,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(morgan("dev"));
 app.use(express.static(path.join(__dirname, "public")));
+app.use(cookieParser());
 app.use(userSession);
 app.use(pathHeader);
 app.use("/newsletter", newsletterRouter);
@@ -53,7 +55,9 @@ app.use("/suscriptions", vetificarAuth, suscriptionsRouter);
 app.use("/messages", vetificarAuth, messageRouter);
 app.use("/users", vetificarAuth, userRouter);
 app.use("/logout", logoutRouter);
-
+app.use("/example", (req, res) => {
+  res.render("rename");
+});
 app.listen(app.get("port"), async () => {
   try {
     await database.authenticate();

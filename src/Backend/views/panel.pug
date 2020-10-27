@@ -1,6 +1,5 @@
 extends ./layout/index
 block contenido
-    include includes/navigator
     .container.d-flex.justify-content-center
         .row
             .col-md-12
@@ -20,3 +19,4 @@ block contenido
                             label(for="descripcion" class="float-left d-3") Agrega una descripcion:
                             textarea(name="descripcion", id="descripcion" rows="3", class="form-control", required placeholder="Describe el Servicio...")
                             input(type="submit", value="Agregar servicio" class="btn btn-info btn-block")
+    
