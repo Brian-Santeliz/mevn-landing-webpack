@@ -1,5 +1,6 @@
 const Admin = require("../models/Admin");
 const bcrypt = require("bcrypt");
+const Swal = require("sweetalert2");
 
 exports.userGetController = (req, res) => {
   res.render("users", {
@@ -51,4 +52,29 @@ exports.userPostController = async (req, res) => {
       parrafo: "Crear nuevos usuarios administradores para Smart Tech.",
     });
   }
+};
+
+exports.userGetAdminController = async (req, res) => {
+  const usersAdmin = await Admin.findAll();
+  const usuarios = usersAdmin.filter((u) => u.usuario !== req.session.user);
+  res.render("example", {
+    usuarios,
+    titulo: "Administrador de Usuarios",
+    parrafo: "En esta sección puedes eliminar usuarios de Smart Tech.",
+  });
+};
+
+exports.userDeleteAdminController = async (req, res) => {
+  const { id } = req.params;
+  const usersAdmin = await Admin.findAll();
+  const usuarios = usersAdmin.filter((u) => u.usuario !== req.session.user);
+  await Admin.destroy({
+    where: { id },
+  });
+  res.render("example", {
+    mensaje: "Eliminado correctamente!",
+    usuarios,
+    titulo: "Administrador de Usuarios",
+    parrafo: "En esta sección puedes eliminar usuarios de Smart Tech.",
+  });
 };

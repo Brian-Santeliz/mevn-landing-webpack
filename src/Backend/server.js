@@ -55,9 +55,7 @@ app.use("/suscriptions", vetificarAuth, suscriptionsRouter);
 app.use("/messages", vetificarAuth, messageRouter);
 app.use("/users", vetificarAuth, userRouter);
 app.use("/logout", logoutRouter);
-app.use("/example", (req, res) => {
-  res.render("rename");
-});
+
 app.listen(app.get("port"), async () => {
   try {
     await database.authenticate();

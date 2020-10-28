@@ -1,0 +1,24 @@
+extends ./layout/index
+block contenido
+     .container  
+        .row
+            .col-md-8.mx-auto.my-5
+                if(mensaje)
+                    p.alert.alert-success.text-uppercase.my-3.text-center #{mensaje}
+                h3.text-center #{titulo}
+                p.text-center #{parrafo}
+                        table.table.table-striped.mb-5
+                        if(usuarios)
+                            table.table.table-striped.mb-5
+                                thead.background-table.text-center
+                                    tr
+                                    th(scope='col') N°
+                                    th(scope='col') Administradores
+                                    th(scope='col') Acción
+                                for admin of usuarios
+                                    tbody.text-center
+                                        tr
+                                        th(scope='row') #{admin.id}
+                                        th(scope='row') #{admin.usuario}
+                                        td 
+                                            a( class="btn btn-danger" href=`/users/${admin.id}` onClick=`return confirm('¿Esta seguro en eliminar el usario: ${admin.usuario}?')`) Eliminar
