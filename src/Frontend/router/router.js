@@ -13,11 +13,7 @@ const router = new Router({
       component: () => import("../pages/Services.vue"),
       name: "Services",
     },
-    {
-      path: "/plan",
-      component: () => import("../pages/Plan.vue"),
-      name: "Plan",
-    },
+
     {
       path: "/portafolio",
       component: () => import("../pages/Portafolio.vue"),

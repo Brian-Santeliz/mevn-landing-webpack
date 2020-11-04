@@ -1,16 +1,15 @@
 <template>
   <header>
-    <div id="hero-home">
+    <div class="hero">
       <div>
         <div>
-          <div class="hero-item active">
+          <div class="hero-contenedor">
             <img src="../../public/image/laptop.jpg" />
-            <div class="carousel-caption text-left">
+            <div class="carousel-caption encabezado-hero">
               <h1 class="text-white sub-hero">Soluciones Innovadoras</h1>
               <h2 class="hero-text">Transforma tu negocio</h2>
               <h4>
                 Optimiza tu empresa con las mejores herramientas del mundo
-                <span class="tech"> Tech</span>
               </h4>
               <router-link
                 to="/contact"

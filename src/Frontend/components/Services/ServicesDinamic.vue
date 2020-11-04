@@ -1,13 +1,10 @@
 <template>
   <div>
-    <section class="section">
+    <section class="seccion">
       <div class="container">
-        <div class="section-header">
-          <h2 class="section-title">Servicios</h2>
-          <span>Smart Tech</span>
-          <p class="section-subtitle">
-            Cada dia evolucionamos para ti. Contamos con expertos en:
-          </p>
+        <div class="seccion-header">
+          <h2 class="seccion-title">Servicios</h2>
+          <p>Cada dia evolucionamos para ti. Contamos con expertos en:</p>
         </div>
         <div class="row">
           <div
@@ -15,7 +12,7 @@
             :key="servicio.id"
             class="col-lg-4 col-md-6 col-xs-12"
           >
-            <div class="item-boxes services-item">
+            <div class="servicio-item contenedor-servicio">
               <div class="icon color-5">
                 <i :class="servicio.clase"></i>
               </div>

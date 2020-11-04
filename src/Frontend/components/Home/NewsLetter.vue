@@ -1,15 +1,15 @@
 <template>
-  <section class="newsletter">
+  <section class="seccion-newsletter">
     <div class="container">
       <div class="row align-items-center">
         <div class="col-lg-5">
-          <div class="newsletter-content mt-4">
-            <h3 class="action-title">Suscribete a nuestra Newsletter!</h3>
-            <p class="text">Nunca compartiremos tu email.</p>
+          <div class="newsletter-contenedor mt-4">
+            <h3 class="titulo-newsletter">Suscribete a nuestra Newsletter!</h3>
+            <p class="texto-newsletter">Nunca compartiremos tu email.</p>
           </div>
         </div>
         <div class="col-lg-7">
-          <div class="newsletter-form mt-50">
+          <div class="formulario-newsletter mt-50">
             <form @submit.prevent="submitNewsletter">
               <input
                 required
@@ -17,10 +17,8 @@
                 placeholder="Jamas te enviaremos spam..."
                 v-model="Newsletter.email"
               />
-              <div class="action-btn rounded-buttons">
-                <button class="main-btn rounded-three btn btn-info">
-                  Suscribete
-                </button>
+              <div class="boton-newsletter">
+                <button class="btn-principal btn btn-info">Suscribete</button>
               </div>
             </form>
           </div>

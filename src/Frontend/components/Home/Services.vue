@@ -1,17 +1,14 @@
 <template>
-  <section class="section">
-    <div class="container">
-      <div class="section-header">
-        <h2 class="section-title">Servicios</h2>
-        <span>Servi Tech</span>
-        <p class="section-subtitle">
-          Para nosotros ayudarte es prioridad, te ofrecemos:
-        </p>
+  <section class="seccion">
+    <div class="container text-center">
+      <div class="seccion-header">
+        <h2 class="seccion-titulo">Servicios</h2>
+        <p>Para nosotros ayudarte es prioridad, te ofrecemos:</p>
       </div>
       <div class="row">
         <div class="col-lg-4 col-md-6 col-xs-12">
-          <div class="item-boxes services-item">
-            <div class="icon color-1">
+          <div class="servicio-item contenedor-servicio">
+            <div class="icon color-5">
               <i class="lni-pencil"></i>
             </div>
             <h4>Escritores De Contenido</h4>
@@ -22,8 +19,8 @@
           </div>
         </div>
         <div class="col-lg-4 col-md-6 col-xs-12">
-          <div class="item-boxes services-item">
-            <div class="icon color-2">
+          <div class="servicio-item contenedor-servicio">
+            <div class="icon color-5">
               <i class="lni-cog"></i>
             </div>
             <h4>Código Fresco</h4>
@@ -34,8 +31,8 @@
           </div>
         </div>
         <div class="col-lg-4 col-md-6 col-xs-12">
-          <div class="item-boxes services-item">
-            <div class="icon color-3">
+          <div class="servicio-item contenedor-servicio">
+            <div class="icon color-5">
               <i class="lni-stats-up"></i>
             </div>
             <h4>Diseño Gráfico</h4>

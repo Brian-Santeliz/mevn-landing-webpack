@@ -1,22 +1,21 @@
 <template>
-  <section class="section">
+  <section class="seccion">
     <div class="container">
-      <div class="section-header">
-        <h2 class="section-title">Nuestro trabajo</h2>
+      <div class="seccion-header">
+        <h2 class="seccion-title">Nuestro trabajo</h2>
         <span>Nosotros</span>
-        <p class="section-subtitle">
+        <p>
           Impulsa tu negocio hacia el mundo digital y obtener más estabilidad
           financiera.
         </p>
       </div>
       <div class="row">
         <div class="col-lg-4 col-md-6 col-xs-12">
-          <div class="featured-box">
-            <div class="featured-icon">
-              <i class="lni-layout"></i>
+          <div class="acerca-contenedor">
+            <div class="icono">
+              <i class="lni lni-pallet"></i>
             </div>
-            <div class="featured-content">
-              <div class="icon-o"><i class="lni-layout"></i></div>
+            <div class="acerca-contenido">
               <h4>Diseño adaptado</h4>
               <p>
                 Presentamos un diseño fresco y adaptado específicamente a tu
@@ -28,12 +27,11 @@
         </div>
 
         <div class="col-lg-4 col-md-6 col-xs-12">
-          <div class="featured-box">
-            <div class="featured-icon">
+          <div class="acerca-contenedor">
+            <div class="icono">
               <i class="lni-tab"></i>
             </div>
-            <div class="featured-content">
-              <div class="icon-o"><i class="lni-tab"></i></div>
+            <div class="acerca-contenido">
               <h4>Manejo de redes sociales</h4>
               <p>
                 Aprender a usar los algoritmos de las redes a tu favor es
@@ -44,12 +42,11 @@
         </div>
 
         <div class="col-lg-4 col-md-6 col-xs-12">
-          <div class="featured-box">
-            <div class="featured-icon">
-              <i class="lni-rocket"></i>
+          <div class="acerca-contenedor">
+            <div class="icono">
+              <i class="lni lni-timer"></i>
             </div>
-            <div class="featured-content">
-              <div class="icon-o"><i class="lni-rocket"></i></div>
+            <div class="acerca-contenido">
               <h4>Herramientas de optimización</h4>
               <p>
                 Contamos con las mejores herramientas para que tu perfil sea un
@@ -61,12 +58,11 @@
         </div>
 
         <div class="col-lg-4 col-md-6 col-xs-12">
-          <div class="featured-box">
-            <div class="featured-icon">
-              <i class="lni-database"></i>
+          <div class="acerca-contenedor">
+            <div class="icono">
+              <i class="lni lni-code"></i>
             </div>
-            <div class="featured-content">
-              <div class="icon-o"><i class="lni-database"></i></div>
+            <div class="acerca-contenido">
               <h4>Desarrollo Frontend y Backend</h4>
               <p>
                 Crearemos soluciones innovadoras y eficaces para tu empresa. Con
@@ -78,12 +74,11 @@
         </div>
 
         <div class="col-lg-4 col-md-6 col-xs-12">
-          <div class="featured-box">
-            <div class="featured-icon">
+          <div class="acerca-contenedor">
+            <div class="icono">
               <i class="lni-leaf"></i>
             </div>
-            <div class="featured-content">
-              <div class="icon-o"><i class="lni-leaf"></i></div>
+            <div class="acerca-contenido">
               <h4>Imágenes de alta calidad</h4>
               <p>
                 Todas las imágenes que se te van a proporcionar serán de alta
@@ -95,12 +90,11 @@
         </div>
 
         <div class="col-lg-4 col-md-6 col-xs-12">
-          <div class="featured-box">
-            <div class="featured-icon">
+          <div class="acerca-contenedor">
+            <div class="icono">
               <i class="lni-pencil"></i>
             </div>
-            <div class="featured-content">
-              <div class="icon-o"><i class="lni-pencil"></i></div>
+            <div class="acerca-contenido">
               <h4>Aplicaciones Móviles</h4>
               <p>
                 Si además de esto también deseas una app no hay problema,

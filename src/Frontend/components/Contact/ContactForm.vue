@@ -1,17 +1,14 @@
 <template>
-  <section class="section">
+  <section class="seccion">
     <div class="contact-form">
       <div class="container">
-        <div class="section-header">
-          <h2 class="section-title">Cuéntanos Tus iDEAS</h2>
-          <span>Smart Idea</span>
-          <p class="section-subtitle">
-            Potencia tu marca con Smart. Contáctanos.
-          </p>
+        <div class="seccion-header">
+          <h2 class="seccion-title">Cuéntanos Tus Ideas</h2>
+          <p>Potencia tu marca con Smart. Contáctanos.</p>
         </div>
         <div class="row">
-          <div class="col-lg-9 col-md-9 col-xs-12">
-            <div class="contact-block">
+          <div class="col-lg-9 col-md-9 col-xs-12 mx-auto">
+            <div >
               <form @submit.prevent="contacForm">
                 <div class="row">
                   <div class="col-md-6">
@@ -57,62 +54,14 @@
                         v-model="Contact.mensaje"
                       ></textarea>
                     </div>
-                    <div class="submit-button">
-                      <button
-                        class="btn btn-common btn-effect"
-                        id="submit"
-                        type="submit"
-                      >
+                    <div class="mx-auto d-flex justify-content-center">
+                      <button class="btn btn-common btn-effect" type="submit">
                         Enviar Mensaje
                       </button>
-                      <div id="msgSubmit" class="h3 hidden"></div>
                     </div>
                   </div>
                 </div>
               </form>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-3 col-xs-12">
-            <div class="contact-deatils">
-              <div class="contact-info_area">
-                <div class="contact-info">
-                  <i class="lni-map"></i>
-                  <h5>Dirección</h5>
-                  <p>Av. Horizonte, sector Los Cedros. Trujillo, Venezuela</p>
-                </div>
-                <div class="contact-info">
-                  <i class="lni-star"></i>
-                  <h5>E-mail</h5>
-                  <p>smartinfo@tech.com</p>
-                </div>
-                <div class="contact-info">
-                  <i class="lni-phone"></i>
-                  <h5>Teléfono</h5>
-                  <p>+58-4124455</p>
-                </div>
-                <ul class="footer-social">
-                  <li>
-                    <a class="facebook" href="#"
-                      ><i class="lni-facebook-filled"></i
-                    ></a>
-                  </li>
-                  <li>
-                    <a class="twitter" href="#"
-                      ><i class="lni-twitter-filled"></i
-                    ></a>
-                  </li>
-                  <li>
-                    <a class="linkedin" href="#"
-                      ><i class="lni-linkedin-fill"></i
-                    ></a>
-                  </li>
-                  <li>
-                    <a class="google-plus" href="#"
-                      ><i class="lni-google-plus"></i
-                    ></a>
-                  </li>
-                </ul>
-              </div>
             </div>
           </div>
         </div>

@@ -35,11 +35,6 @@
             </li>
 
             <li class="nav-item">
-              <router-link class="nav-link page-scroll" to="/plan"
-                >Planes</router-link
-              >
-            </li>
-            <li class="nav-item">
               <router-link class="nav-link page-scroll" to="/portafolio"
                 >Portafolio</router-link
               >

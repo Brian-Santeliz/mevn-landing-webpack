@@ -1,22 +1,20 @@
 <template>
-  <section class="section">
+  <section class="seccion">
     <div class="container">
-      <div class="section-header">
-        <h2 class="section-title">Un poco de Smart Tech</h2>
-        <span>Nosotros</span>
-        <p class="section-subtitle">
+      <div class="seccion-header">
+        <h2 class="seccion-title">Un poco de Smart Tech</h2>
+        <p>
           Smart tech es una compañía diseñada para apoyarte en tu crecimiento
           digital.
         </p>
       </div>
       <div class="row">
         <div class="col-lg-4 col-md-6 col-xs-12">
-          <div class="featured-box">
-            <div class="featured-icon">
-              <i class="lni-layout"></i>
+          <div class="acerca-contenedor">
+            <div class="icono">
+              <i class="lni lni-pallet"></i>
             </div>
-            <div class="featured-content">
-              <div class="icon-o"><i class="lni-layout"></i></div>
+            <div class="acerca-contenido">
               <h4>Diseño adaptado</h4>
 
               <p>
@@ -28,12 +26,11 @@
           </div>
         </div>
         <div class="col-lg-4 col-md-6 col-xs-12">
-          <div class="featured-box">
-            <div class="featured-icon">
-              <i class="lni-tab"></i>
+          <div class="acerca-contenedor">
+            <div class="icono">
+              <i class="lni lni-timer"></i>
             </div>
-            <div class="featured-content">
-              <div class="icon-o"><i class="lni-tab"></i></div>
+            <div class="acerca-contenido">
               <h4>Herramientas de optimización</h4>
               <p>
                 Contamos con las mejores herramientas para que tu perfil sea un
@@ -45,12 +42,11 @@
         </div>
 
         <div class="col-lg-4 col-md-6 col-xs-12">
-          <div class="featured-box">
-            <div class="featured-icon">
-              <i class="lni-rocket"></i>
+          <div class="acerca-contenedor">
+            <div class="icono">
+              <i class="lni lni-code"></i>
             </div>
-            <div class="featured-content">
-              <div class="icon-o"><i class="lni-rocket"></i></div>
+            <div class="acerca-contenido">
               <h4>Desarrollo Frontend y Backend</h4>
               <p>
                 Crearemos soluciones innovadoras y eficaces para tu empresa. Con
@@ -60,12 +56,12 @@
             </div>
           </div>
         </div>
+        <div class="container mt-5 d-flex justify-content-center">
+          <router-link to="/about" class="btn btn-hover btn-outline-info"
+            >Conoce nuestro equipo!</router-link
+          >
+        </div>
       </div>
-    </div>
-    <div class="container mt-5 d-flex justify-content-center">
-      <router-link to="/about" class="btn btn-hover btn-outline-info"
-        >Conoce nuestro equipo!</router-link
-      >
     </div>
   </section>
 </template>
