@@ -10,7 +10,7 @@
           <div
             v-for="servicio in Servicios"
             :key="servicio.id"
-            class="col-lg-4 col-md-6 col-xs-12"
+            class="col-lg-4 col-md-6 col-xs-12 animate__animated animate__fadeInDown"
           >
             <div class="servicio-item contenedor-servicio">
               <div class="icon color-5">

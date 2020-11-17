@@ -7,8 +7,10 @@
           <p>Potencia tu marca con Smart. Contáctanos.</p>
         </div>
         <div class="row">
-          <div class="col-lg-9 col-md-9 col-xs-12 mx-auto">
-            <div >
+          <div
+            class="col-lg-9 col-md-9 col-xs-12 mx-auto animate__animated animate__zoomIn"
+          >
+            <div>
               <form @submit.prevent="contacForm">
                 <div class="row">
                   <div class="col-md-6">

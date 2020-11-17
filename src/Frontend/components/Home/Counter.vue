@@ -1,7 +1,7 @@
 <template>
   <div class="contador seccion bg-defult">
     <div class="container">
-      <div class="row">
+      <div class="row animate__animated animate__fadeIn">
         <div class="col-sm-6 col-md-6 col-lg-3">
           <div class="contenedor-contador">
             <div class="icon">

@@ -10,7 +10,9 @@
         </p>
       </div>
       <div class="row">
-        <div class="col-lg-4 col-md-6 col-xs-12">
+        <div
+          class="col-lg-4 col-md-6 col-xs-12 animate__animated animate__flipInX"
+        >
           <div class="acerca-contenedor">
             <div class="icono">
               <i class="lni lni-pallet"></i>
@@ -26,7 +28,9 @@
           </div>
         </div>
 
-        <div class="col-lg-4 col-md-6 col-xs-12">
+        <div
+          class="col-lg-4 col-md-6 col-xs-12 animate__animated animate__flipInX"
+        >
           <div class="acerca-contenedor">
             <div class="icono">
               <i class="lni-tab"></i>
@@ -41,7 +45,9 @@
           </div>
         </div>
 
-        <div class="col-lg-4 col-md-6 col-xs-12">
+        <div
+          class="col-lg-4 col-md-6 col-xs-12 animate__animated animate__flipInX"
+        >
           <div class="acerca-contenedor">
             <div class="icono">
               <i class="lni lni-timer"></i>
@@ -57,7 +63,9 @@
           </div>
         </div>
 
-        <div class="col-lg-4 col-md-6 col-xs-12">
+        <div
+          class="col-lg-4 col-md-6 col-xs-12 animate__animated animate__flipInX"
+        >
           <div class="acerca-contenedor">
             <div class="icono">
               <i class="lni lni-code"></i>
@@ -73,7 +81,9 @@
           </div>
         </div>
 
-        <div class="col-lg-4 col-md-6 col-xs-12">
+        <div
+          class="col-lg-4 col-md-6 col-xs-12 animate__animated animate__flipInX"
+        >
           <div class="acerca-contenedor">
             <div class="icono">
               <i class="lni-leaf"></i>
@@ -89,7 +99,9 @@
           </div>
         </div>
 
-        <div class="col-lg-4 col-md-6 col-xs-12">
+        <div
+          class="col-lg-4 col-md-6 col-xs-12 animate__animated animate__flipInX"
+        >
           <div class="acerca-contenedor">
             <div class="icono">
               <i class="lni-pencil"></i>

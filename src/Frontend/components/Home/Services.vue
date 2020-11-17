@@ -6,7 +6,9 @@
         <p>Para nosotros ayudarte es prioridad, te ofrecemos:</p>
       </div>
       <div class="row">
-        <div class="col-lg-4 col-md-6 col-xs-12">
+        <div
+          class="col-lg-4 col-md-6 col-xs-12 animate__animated animate__flipInX"
+        >
           <div class="servicio-item contenedor-servicio">
             <div class="icon color-5">
               <i class="lni-pencil"></i>
@@ -18,7 +20,9 @@
             </p>
           </div>
         </div>
-        <div class="col-lg-4 col-md-6 col-xs-12">
+        <div
+          class="col-lg-4 col-md-6 col-xs-12 animate__animated animate__flipInX"
+        >
           <div class="servicio-item contenedor-servicio">
             <div class="icon color-5">
               <i class="lni-cog"></i>
@@ -30,7 +34,9 @@
             </p>
           </div>
         </div>
-        <div class="col-lg-4 col-md-6 col-xs-12">
+        <div
+          class="col-lg-4 col-md-6 col-xs-12 animate__animated animate__flipInX"
+        >
           <div class="servicio-item contenedor-servicio">
             <div class="icon color-5">
               <i class="lni-stats-up"></i>

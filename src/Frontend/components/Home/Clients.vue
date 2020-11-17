@@ -4,7 +4,10 @@
       <div class="seccion-header">
         <h2 class="seccion-title">Nuestros Clientes</h2>
       </div>
-      <div class="row" style="justify-content: center">
+      <div
+        class="row animate__animated animate__lightSpeedInLeft"
+        style="justify-content: center"
+      >
         <div class="client-item-wrapper p-4">
           <img src="../../public/image/logo1.png" alt="" />
         </div>

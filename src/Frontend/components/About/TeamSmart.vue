@@ -7,7 +7,9 @@
         <p>Nuestro Smart Team estará complacido de atenderte.</p>
       </div>
       <div class="row">
-        <div class="col-lg-3 col-md-6 col-xs-12">
+        <div
+          class="col-lg-3 col-md-6 col-xs-12 animate__animated animate__zoomIn"
+        >
           <div class="contenedor-team">
             <img src="../../public/image/t1.jpg" alt="" />
             <div class="detalles-team">
@@ -32,7 +34,9 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-3 col-md-6 col-xs-12">
+        <div
+          class="col-lg-3 col-md-6 col-xs-12 animate__animated animate__zoomIn"
+        >
           <div class="contenedor-team">
             <img src="../../public/image/t2.jpg" alt="" />
             <div class="detalles-team">
@@ -57,7 +61,9 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-3 col-md-6 col-xs-12">
+        <div
+          class="col-lg-3 col-md-6 col-xs-12 animate__animated animate__zoomIn"
+        >
           <div class="contenedor-team">
             <img src="../../public/image/t3.jpg" alt="" />
             <div class="detalles-team">
@@ -82,7 +88,9 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-3 col-md-6 col-xs-12">
+        <div
+          class="col-lg-3 col-md-6 col-xs-12 animate__animated animate__zoomIn"
+        >
           <div class="contenedor-team">
             <img src="../../public/image/t4.jpg" alt="" />
             <div class="detalles-team">

@@ -13,12 +13,12 @@
               </h4>
               <router-link
                 to="/contact"
-                class="btn btn-lg btn-common btn-effect"
+                class="btn btn-lg btn-common btn-effect animate__animated animate__fadeInDown"
                 >Contáctanos!</router-link
               >
               <router-link
                 to="/services"
-                class="btn btn-lg btn-border ml-4 service-btn"
+                class="btn btn-lg btn-border ml-4 service-btn animate__animated animate__fadeIn"
                 >Servicios</router-link
               >
             </div>

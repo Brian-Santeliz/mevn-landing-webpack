@@ -2,7 +2,9 @@
   <div class="col-lg-12">
     <div class="row p-5">
       <div class="col-lg-4">
-        <div class="contenedor-testimonios text-center">
+        <div
+          class="contenedor-testimonios text-center animate__animated animate__flipInX"
+        >
           <div class="imagen-testimonios">
             <img src="../../public/image/m2.jpeg" alt="testimonio" />
           </div>
@@ -18,7 +20,9 @@
         </div>
       </div>
       <div class="col-lg-4">
-        <div class="contenedor-testimonios text-center">
+        <div
+          class="contenedor-testimonios text-center animate__animated animate__flipInX"
+        >
           <div class="imagen-testimonios">
             <img src="../../public/image/m3.jpg" alt="testimonio" />
           </div>
@@ -34,7 +38,9 @@
         </div>
       </div>
       <div class="col-lg-4">
-        <div class="contenedor-testimonios ultimo-testimonio text-center">
+        <div
+          class="contenedor-testimonios ultimo-testimonio text-center animate__animated animate__flipInX"
+        >
           <div class="imagen-testimonios">
             <img src="../../public/image/m1.jpg" alt="testimonio" />
           </div>

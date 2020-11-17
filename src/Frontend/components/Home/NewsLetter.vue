@@ -18,7 +18,11 @@
                 v-model="Newsletter.email"
               />
               <div class="boton-newsletter">
-                <button class="btn-principal btn btn-info">Suscribete</button>
+                <button
+                  class="btn-principal btn btn-info animate__animated animate__fadeInBottomLeft"
+                >
+                  Suscribete
+                </button>
               </div>
             </form>
           </div>
